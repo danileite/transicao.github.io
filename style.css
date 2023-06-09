@@ -1,0 +1,33 @@
+.grid-container {
+    width: 75%;
+    height: 100%;
+    background-color: rgb(159, 212, 243);
+
+    
+}
+
+@keyframes tumtum {
+  50% {transform: scale(1.1);}
+}
+
+.titulo {
+    font-family:cursive;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(35, 35, 168);
+}
+
+.texto {
+    font-family: cursive;
+    font-weight: 20px;
+    text-align: center;
+    color: rgb(35, 35, 168);
+
+}
+
+#tumtum {
+    margin-left: 25%;
+    animation: tumtum 1s infinite;
+    
+
+  }
